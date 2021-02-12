@@ -8,18 +8,13 @@
 - LiveData
 - Coroutines
 - Jason to Kotlin Class
-
-# What is next?
-#Inconvenientes:
-
 - Hero details
 - Cardview expandable
 
 
-
-|1. Login                                | 2. Heros                               | 3. Events                            | 4. Hero Detail |
-| ---------------------------------------| -------------------------------------- |--------------------------------------|-------------|
-| <img src="images/0.png" width="200px"> | <img src="images/1.png" width="200px"> |<img src="images/3.png" width="200px">|<img src="images/4.png" width="200px">|
+|1. Login                                                                                                    | 2. Heros                                                                                          | 3. Events                                                                                                | 4. Hero Detail                                                                                            |
+| -----------------------------------------------------------------------------------------------------------| --------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| <img src="https://raw.githubusercontent.com/osinagalj/MarvelApp-Kotlin/master/images/0.PNG" width="200px"> | <https://raw.githubusercontent.com/osinagalj/MarvelApp-Kotlin/master/images/1.PNG" width="200px"> |<img src="https://raw.githubusercontent.com/osinagalj/MarvelApp-Kotlin/master/images/2.PNG" width="200px">|<img src="https://raw.githubusercontent.com/osinagalj/MarvelApp-Kotlin/master/images/4.PNG" width="200px">|
 
 
 
