@@ -12,10 +12,13 @@
 - Cardview expandable
 
 
-|1. Login                                                                                                    | 2. Heros                                                                                                    | 3. Events                                                                                                | 4. Hero Detail                                                                                            |
+|1. Login                                                                                                    | 2. Google Login                                                                                             | 3. Heros                                                                                                 | 4. Hero Detail                                                                                            |
 | -----------------------------------------------------------------------------------------------------------| ------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | <img src="https://raw.githubusercontent.com/osinagalj/MarvelApp-Kotlin/master/images/0.PNG" width="200px"> | <img src= "https://raw.githubusercontent.com/osinagalj/MarvelApp-Kotlin/master/images/1.PNG" width="200px"> |<img src="https://raw.githubusercontent.com/osinagalj/MarvelApp-Kotlin/master/images/2.PNG" width="200px">|<img src="https://raw.githubusercontent.com/osinagalj/MarvelApp-Kotlin/master/images/4.PNG" width="200px">|
 
+|1. Hero Detail comics                                                                                       | 2. Events                                                                                                    | 3. Events expandable                                                                                    |
+| -----------------------------------------------------------------------------------------------------------| ------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| <img src="https://raw.githubusercontent.com/osinagalj/MarvelApp-Kotlin/master/images/5.PNG" width="200px"> | <img src= "https://raw.githubusercontent.com/osinagalj/MarvelApp-Kotlin/master/images/6.PNG" width="200px"> |<img src="https://raw.githubusercontent.com/osinagalj/MarvelApp-Kotlin/master/images/7.PNG" width="200px">|
 
 
 
