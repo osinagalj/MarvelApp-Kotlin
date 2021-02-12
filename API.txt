@@ -1,0 +1,12 @@
+Hi osinag863999145!
+
+Here's your personal Marvel Comics API information:
+
+Your public key
+	5ec492dd7b4cbeaf8e0423533b9043e5
+Your private key
+	a548088297995b111bc98545248dc8b10f951485
+
+
+Characters
+https://gateway.marvel.com/v1/public/characters?apikey=3a783b25c80e1c44875356dd363f272d&hash=51a3ecf2f92a23817992a2663183325e&ts=1

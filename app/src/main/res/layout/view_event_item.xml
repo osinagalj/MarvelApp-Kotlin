@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="event"
+            type="com.intermedia.challenge.data.models.Event" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/itemLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="4dp"
+        android:layout_marginHorizontal="8dp"
+        app:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/image_character_thumbnail"
+                    imageThumbnail="@{event.thumbnail}"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_weight="2"
+                    android:layout_marginRight="15dp"
+                     />
+
+                <LinearLayout
+                    android:id="@+id/ll_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/text_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@{event.title}"
+                        android:textSize="24sp"
+                        tools:text="Thanos" />
+
+
+
+                    <TextView
+                        android:id="@+id/text_date_start"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@{event.start}"
+                        android:textAlignment="textStart"
+                        android:textSize="14sp"
+                        tools:text="20-01-2021" />
+
+                    <TextView
+                        android:id="@+id/text_date_end"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="@{event.end}"
+                        android:textAlignment="textStart"
+                        android:textSize="14sp"
+                        tools:text="21-01-2021" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_expand"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="28dp"
+                    app:srcCompat="@drawable/ic_expand_more" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_comics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Comics a discutir"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="30sp" />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/list_comics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:itemCount="5"
+
+                    tools:listitem="@layout/view_hero_details_comics" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</layout>

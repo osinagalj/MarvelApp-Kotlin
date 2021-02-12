@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Marvel App</string>
+
+    <string name="title_characters">Personajes</string>
+    <string name="title_events">Eventos</string>
+
+    <string name="sign_in_with_google">Sign in With Google</string>
+    <string name="example">Example</string>
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="email_address">Email address</string>
+    <string name="sign_out">Sign out</string>
+
+    <string name="hero_detail_description">Description</string>
+    <string name="hero_detail_comics">Comics en los que Aparece</string>
+    <string name="hero_detail_name">Name</string>
+
+    <string name="sign_in_with_facebook">Sign in With Facebbok</string>
+    <string name="marvel_challenge">Marvel Challenge</string>
+
+    <string name="prefs_file">com.example.intermedia.challenge.PREFERENCE_FILE_KEY</string>
+    <string name="facebook_app_id">198787595206144</string>
+    <string name="fb_login_protocol_scheme">fb198787595206144</string>
+</resources>
